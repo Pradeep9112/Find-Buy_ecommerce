@@ -1,0 +1,20 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flex container for the entire app */
+.AdminHome {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Allow it to take at least the full height of the viewport */
+}
+.maincontent {
+    flex: 1;
+    padding-top: 100px;
+}
+
+
+
+

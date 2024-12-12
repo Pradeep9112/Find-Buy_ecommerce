@@ -1,0 +1,117 @@
+/* AdminShoppingList.css */
+
+.viewItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.sub_items {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.sub_items:hover {
+    transform: scale(1.05);
+}
+
+.sub_items img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sub_items h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sub_items h3 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.sub_items h4 {
+    font-size: 20px;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.sub_items p {
+    font-size: 14px;
+    color: #555;
+}
+
+.sub_items button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.sub_items button:first-of-type:hover {
+   color: white;
+   background-color: #007bff;
+}
+
+.sub_items button:first-of-type {
+   border:1px solid #007bff;  
+    color: #007bff;
+}
+
+.sub_items button:last-of-type {
+    border:1px solid #dc3545; 
+    color: #dc3545;
+}
+.sub_items button:last-of-type:hover {
+    color:white;
+    background-color: #dc3545;
+ }
+ .NOPRODUCTS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;  /* Ensures enough space */
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.NOPRODUCTS p {
+    margin: 0;
+    font-weight: 500;
+    color: #555;
+}
+
+.NOPRODUCTS::before {
+    content: "📦"; 
+    font-size: 2.5em;
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+

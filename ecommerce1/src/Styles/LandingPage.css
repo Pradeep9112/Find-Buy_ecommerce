@@ -1,0 +1,43 @@
+.landmain {
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center the .Land horizontally */
+  align-items: center; /* Center the .Land vertically */
+}
+
+.Land {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh; /* Flexible height */
+  width: 60vw; /* Flexible width based on viewport */
+  position: relative;
+  border-radius: 50px;
+  padding: 20px;
+  /* These values will make the .Land container more responsive */
+}
+
+a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.one, .two {
+  transition: transform 0.3s ease;
+}
+
+.one:hover, .two:hover {
+  transform: scale(1.1);
+}
+
+/* Optional: These styles are just for the hover effect on .one and .two */
+.one, .two {
+  width: 45%; /* Make them take up a decent portion of the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+

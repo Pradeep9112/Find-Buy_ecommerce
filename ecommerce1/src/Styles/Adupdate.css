@@ -1,0 +1,22 @@
+/* AdminAddproduct.css */
+
+.editpd .addproducts-form label {
+    color: red;
+}
+
+/* .addproducts-form input,
+.addproducts-form select,
+.addproducts-form textarea {
+    border: 1px solid red;
+} */
+
+.editpd .addproducts-form input:focus,
+.editpd .addproducts-form select:focus,
+.editpd .addproducts-form textarea:focus {
+    border-color: red;
+}
+.editpd .addproducts-form {
+    border: 2px solid red;
+    padding: 30px;
+    /* border-radius: 8px;  */
+}

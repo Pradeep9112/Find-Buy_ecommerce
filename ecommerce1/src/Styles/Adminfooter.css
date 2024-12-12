@@ -1,0 +1,64 @@
+/* .ADfooter{
+    background-color: #1a1a1a;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    width: 100%;
+} */
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    /* position: fixed; */
+    /* bottom: 0px; */
+    width: 100%;
+    z-index: 1;
+   
+}
+
+.footer-content {
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+    
+}
+
+.footer-section {
+
+    min-width: 200px;
+    margin: 10px; 
+}
+
+.footer-section h2 {
+    margin-top: 0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.footer-section li {
+    margin: 5px 0; 
+}
+
+.footer-section a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-section a:hover {
+  
+    transform: scale(1.1);
+    color:red;
+}
+
+.footer-bottom {
+    text-align: center; 
+    margin-top: 20px; 
+}
+ span{
+    padding:0px 10px;
+}
+
